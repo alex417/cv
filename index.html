@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <section class="section" id="name">
+                <div class="name_text">
+                    <div class="name_name">
+                        <h1>Алексей Михайлов</h1>
+                        <p class="job">Системный администратор</p>
+                    </div>
+                    <div class="name_contacts">
+                        <div class="phone">
+                            <p class="contact_text">Phone</p>
+                            <p class="number">+375257584756</p>
+                        </div>
+                        <div class="email">
+                            <p class="contact_text">Email</p>
+                            <p>alex417022@gmail.com</p>
+                        </div>
+                        <div class="address">
+                            <p class="contact_text">Address</p>
+                            <p>Minsk</p>
+                        </div>
+                    </div>
+                </div>
+                <img src="assets/img/foto.jpg" alt="foto">
+            </section>
+            
+            <section class="section" id="main_content">
+                <div class="content_div">
+                    <div class="contents" id="work">
+                        <h2>Опыт работы — 6 лет 1 месяц</h2>
+                        <h3>it-performance — с мая 2016 по настоящее время</h3>
+                        <p> Инженер технической поддержки
+                            Обслуживание  сетей,  серверов,  пк  и  оргтехники. Установка,  настройка  и  управление  серверами  MS Server 2003-2022 (AD, DNS, DHCP, Terminal Server, ISS, VPN  и  прочие); 
+                            Установка,  настройка  и  управление  ОС  Linux\Unix (Ubuntu, CentOS, Debian).
+                            Работа  с  системами  виртуализации  (Proxmox, VMware, Hyper-v); 
+                            Обеспечение  сохранности  данных  (резервное  копирование  и  восстановление  данных) 
+                            Настройка  и сопровождение  бухгалтерских  программ  (1С,  Клиент-банки,  декларанты,  респонденты), работа с ЭЦП.
+                        </p>
+                    </div>
+                    <div class="contents" id="education">
+                        <h2>Образование</h2>
+                        <h3>Среднее специальное</h3>
+                        <p>Технологическом  колледже  Учреждения  образования  «Гродненский государственный  университет  имени  Янки  Купалы»
+                            Информационные  технологии, Программное  обеспечение  информационных  технологий
+                        </p>
+                    </div>
+                    <div class="contents" id="skills">
+                        <h2>Навыки</h2>
+                        <ul>
+                            <li>Виртуализация
+                                <ul>
+                                    <li>VMware</li>
+                                    <li>Hyper-V</li>
+                                    <li>Qemu</li>
+                                    <li>VirtualBox</li>
+                                </ul>
+                            </li>
+                            <li>Языки программирования
+                                <ul>
+                                    <li>Python</li>
+                                    <li>NodeJs</li>
+                                    <li>HTML, css</li>
+                                </ul>
+                            </li>
+                            <li>Bash, cmd, powershell</li>
+                            <li>Asterisk</li>
+                            <li>Администрирование серверов
+                                <ul>
+                                    <li>AD</li>
+                                    <li>DNS, DHCP</li>
+                                    <li>VPN</li>
+                                    <li>RDP</li>
+                                </ul>
+                            </li>
+                            <li>Kerio, RouterOS</li>
+                        </ul>
+                    </div>
+                    <div class="contents" id="projects">
+                        <h2>Проекты</h2>
+                        <p>Телефония на базе asterisk</p>
+                        <ul>
+                            <li>it-performance
+                                <ul>
+                                    <li>Веб страница с звонками и возможностью скачать записи</li>
+                                    <li>Исходящие и входящие с шлюзов в разных офисах, через туннель</li>
+                                    <li>Оповещение о входящих вызовах в телеграмм</li>
+                                    <li>Входящие смс с gms шлюза в телеграмм</li>
+                                    <li>Отправка смс через телеграмм</li>
+                                    <li>Интеграция состояния сипов и звонков в очереди в црм систему</li>
+                                </ul>
+                            </li>
+                            <li>Форос
+                                <ul>
+                                    <li>Веб страница с отображение в реал тайм состояния пиров</li>
+                                    <li>На этой же странице в другой вкладке статиска за все время по:
+                                        <ul>
+                                            <li>Входящим</li>
+                                            <li>Исходящим</li>
+                                            <li>Пропущенным</li>
+                                            <li>Время в сети</li>
+                                            <li>Время в разговоре</li>
+                                        </ul>
+                                        работает на nodejs обменивается с mongodb и mysql.
+                                    </li>
+                                    <li>Интеграция с битриксом на php</li>
+                                </ul>
+                            </li>
+                            <li>Кондор
+                                <ul>
+                                    <li>Утренее оповещение о звонках в не рабочее время</li>
+                                    <li>Оповещение о пропущенных звонках</li>
+                                    <li>Вечернее оповещение о количестве звонков, уникальных номерах, пропущенных и не обработанных вызовах</li>
+                                    <li>Интеграция с битрикс на базе nodejs с разделение звонков на направления и создание либо сделок либо лидов в зависимости от входящей линии</li>
+                                </ul>
+                            </li>
+                            <li>Ортоклиник
+                                <ul><li>Создание json файлов в начале, приеме и в окончанию звонка для црм системы</li></ul>
+                            </li>
+                        </ul>
+                        <p>Различные боты для телеграмма на python и nodejs</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="page_footer">
+        <div class="container">
+            <a class="footer_content_left" href="https://github.com/alex417"><pre>©  2022  github</pre></a>
+            <a class="footer_content_center" href="">Aleksei Mikhailau</a>
+            <div class="footer_content_right">
+                <a class="footer_content_right_items" href="https://t.me/alex417022"></a>
+                <a class="footer_content_right_items" href="https://api.whatsapp.com/send?phone=375257584756"></a>
+                <a class="footer_content_right_items" href="viber://chat?number=+375257584756"></a>
+                <a class="footer_content_right_items" href="https://vk.com/id16930339"></a>
+            </div>             
+        </div>
+    </footer>
+</body>
+</html>

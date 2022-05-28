@@ -1,0 +1,201 @@
+@font-face {
+    font-family: 'Merriweather', serif;;
+    src: url("assets/fonts/Merriweather.ttf");
+    font-weight: 700;
+}
+  
+@font-face {
+    font-family: 'Inter', sans-serif;;
+    src: url("assets/fonts/Inter.ttf");
+    font-weight: 400;
+}
+  
+@font-face {
+    font-family: 'Inter', sans-serif;;
+    src: url("assets/fonts/Inter.ttf");
+    font-weight: 700;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-image: url("assets/img/background.jpg");
+}
+
+body {
+    margin: 0px;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Inter', sans-serif;
+}
+
+p {
+    margin: 0px;
+}
+
+#name {
+    font-family: Merriweather;
+    font-style: normal;
+    margin: 0px;
+    width: 1440px;
+    height: 600px;
+    color: white;
+    background-color: #000;
+    position: relative;
+}
+
+.name_text {
+    width: 780px;
+}
+
+.name_name {
+    padding: 100px 0 0 60px;
+    font-size: 50px;
+}
+
+.name_name h1 {
+    font-size: 80px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.job {
+    padding-top: 50px;
+}
+
+.name_contacts {
+    padding: 230px 0 0 60px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+img {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 450px;
+    height: 600px;
+}
+
+#main_content {
+    font-family: 'Times New Roman', Times, serif;
+    height: 900px;
+    position: relative;
+}
+
+.content_div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+    height: 900px;
+}
+
+.contents {
+    width: 670px;
+    flex-shrink: 1;
+}
+
+.contents h2 {
+    font-size: 35px;
+    margin: 0px;
+    padding-bottom: 5px;
+}
+
+.contents h3, p, ul {
+    margin: 0px;
+    padding-bottom: 5px;
+}
+
+.contents h3 {
+    font-size: 25px;
+}
+
+.contents p, ul {
+    font-size: 18px;
+}
+
+.contents:nth-child(2) {
+    height: 150px;
+}
+
+.contents:nth-child(3) {
+    height: 450px;
+}
+
+.contents:nth-child(4) {
+    position: relative;
+    top: -100px;
+}
+
+.page_footer .container {
+    height: 50px;
+    background-color: #000;
+    position: relative;
+}
+
+.footer_content_left, .footer_content_center {
+    color: #ffff;
+    text-decoration: none;  
+    transition: color 0.5s;
+}
+
+.footer_content_left {
+    position: absolute;
+    font-size: 20px;
+    line-height: 50px;
+    left: 20px;
+}
+
+pre {
+    margin: 0;
+}
+
+.footer_content_center {
+    font-size: 20px;
+    line-height: 50px;
+    position: absolute;
+    left: calc(50% - 105.5px);
+    height: 50px;
+    width: 211px;
+}
+
+.footer_content_right {
+    position: absolute;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 50px;
+    right: 20px;
+    gap: 20px;
+}
+
+.footer_content_right_items {
+    background-position: center top;
+    height: 32px;
+    width: 32px;
+}
+
+.footer_content_right_items:nth-child(1) {
+    background-image: url('./assets/svg/Telegram.svg');
+}
+
+.footer_content_right_items:nth-child(2) {
+    background-image: url('./assets/svg/WhatsApp.svg');
+}
+
+.footer_content_right_items:nth-child(3) {
+    background-image: url('./assets/svg/Viber.svg');
+}
+.footer_content_right_items:nth-child(4) {
+    background-image: url('./assets/svg/VK.svg');
+}
