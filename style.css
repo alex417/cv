@@ -122,19 +122,6 @@ img {
     font-size: 18px;
 }
 
-.contents:nth-child(2) {
-    height: 150px;
-}
-
-.contents:nth-child(3) {
-    height: 450px;
-}
-
-.contents:nth-child(4) {
-    position: relative;
-    top: -100px;
-}
-
 .page_footer .container {
     height: 50px;
     background-color: #000;
