@@ -84,7 +84,7 @@ img {
 
 #main_content {
     font-family: 'Times New Roman', Times, serif;
-    height: 1450px;
+    height: 860px;
     position: relative;
 }
 
@@ -95,7 +95,7 @@ img {
     justify-content: center;
     gap: 50px;
     margin-top: 30px;
-    height: 900px;
+    height: 400px;
 }
 
 .contents {
